@@ -10,19 +10,22 @@
   <body>
     <header>
       <h1>Guess My Number!</h1>
-      <p class="between">(Between 1 and 10)</p>
-      <button class="btn again">Again!</button>
+      <p class="between">
+        ( ၁ နှင့် ၃၀ ကြားတွင်ရှိသော ဂဏန်းများကို ခန့်မှန်းပါ။)
+      </p>
+      <button class="btn again">နောက်တစ်ကြိမ်!</button>
       <div class="number">?</div>
     </header>
     <main>
-      <section class="left">
-        <input type="number" class="guess" />
-        <button class="btn check">Check!</button>
+      <section class="main left">
+        <input type="number" class="guess" placeholder="ဒီမှာရေးပါ။" />
+        <button class="btn check">စစ်ဆေးမယ်။!</button>
       </section>
-      <section class="right">
-        <p class="message">Start guessing...</p>
-        <p class="label">💯 Score: <span class="score">10</span></p>
-        <p class="label">🥇 Highscore: <span class="highscore">0</span></p>
+      <section class="main right">
+        <p class="message">စပြီး ခန့်မှန်းပါပြီ။...</p>
+        <p class="label">💯 ရမှတ်: <span class="score">10</span></p>
+        <br />
+        <p class="label">🥇 အများဆုံးရမှတ်: <span class="highscore">0</span></p>
       </section>
     </main>
     <script src="script.js"></script>
